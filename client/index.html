@@ -4,7 +4,7 @@
   <head>
 
     <meta charset="UTF-8">
-
+<title>Kaszpi AI support</title>
     <style>
       .wrapper {
         display: flex;
@@ -13,7 +13,7 @@
       }
 
       .ai .chat {
-        background: #e6e6e6;
+        background: #15b5ff;
         margin-left: auto;
         border-radius: 50px 0 50px 50px;
       }
@@ -32,7 +32,7 @@
       }
 
       .message {
-        background: #fff;
+        background: #6f7eff;
         padding: 20px;
         border-radius: 50px;
         max-width: 60%;
@@ -43,7 +43,7 @@
       }
 
       .ai .message {
-        background: #e6e6e6;
+        background: #15b5ff;
         color: #333;
       }
 
@@ -51,7 +51,7 @@
         height: 500px;
         overflow-y: scroll;
         padding: 20px;
-        background: #f3f3f3;
+        background: #86e7ff;
       }
 
       form {
@@ -68,7 +68,7 @@
       textarea {
         width: 80%;
         height: 50px;
-        border: 1px solid #ddd;
+        border: 1px solid rgb(160, 228, 255);
         border-radius: 5px;
         padding: 10px;
         font-size: 16px;
@@ -78,7 +78,7 @@
       button {
         width: 20%;
         height: 50px;
-        background: #4caf50;
+        background: #37bad1;
         color: #fff;
         border: 0;
         border-radius: 5px;
@@ -88,10 +88,11 @@
     </style>
   </head>
   <body>
+    <p>Kaszpi AI support demo dev : Clonaz (Virág Tamás) v:a0.1</p>
     <div id="chat_container"></div>
     <form>
-      <textarea name="prompt"></textarea>
-      <button type="submit">Send</button>
+      <textarea name="prompt"  placeholder="Tegyél fel egy kérdést. :)"></textarea>
+      <button type="submit">Kérdés :D</button>
     </form>
     <script src="./script.js"></script>
   </body>

@@ -1,3 +1,5 @@
+
+
 #chat_container {
     display: flex;
     justify-content: center;
@@ -6,7 +8,7 @@
   }
   
   .chat-window {
-    background: #fff;
+    background: rgb(47, 0, 255);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     width: 400px;
@@ -16,7 +18,7 @@
   
   .chat-header {
     background: #3f51b5;
-    color: #fff;
+    color: rgb(255, 0, 0);
     padding: 20px;
     text-align: center;
   }
